@@ -31,4 +31,7 @@ public class Apartment {
 
     @Column(name = "description")
     private String description;
+
+    @Column(name = "image", length=1000)
+    private byte[] image;
 }
